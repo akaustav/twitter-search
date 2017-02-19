@@ -1,0 +1,22 @@
+{
+  "name": "twitter-search",
+  "version": "1.0.0",
+  "description": "Twitter Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaustav/twitter-search.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Ameet Kaustav (akaustav)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaustav/twitter-search/issues"
+  },
+  "homepage": "https://github.com/akaustav/twitter-search#readme"
+}
