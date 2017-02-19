@@ -2,18 +2,21 @@
 <html>
   <head>
     <title>Twitter API Calls</title>
+    <script src="app.js"></script>
   </head>
   <body>
     <main>
-      <form>
+      <section>
         <label>Query:</label>
-        <input type="text" placeholder="Query">
+        <input type="text" id="query" placeholder="Query">
 
         <label>Number of Tweets</label>
         <input type="number" placeholder="Number of tweets">
 
-        <input type="submit" value="Search">
-      </form>
+        <input type="button" id="search" value="Search">
+      </section>
+
+      <ul id="tweetsList"></ul>
     </main>
   </body>
 </html>
