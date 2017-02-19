@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/akaustav/twitter-search/issues"
   },
-  "homepage": "https://github.com/akaustav/twitter-search#readme"
+  "homepage": "https://github.com/akaustav/twitter-search#readme",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
 }
