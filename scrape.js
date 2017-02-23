@@ -1,4 +1,4 @@
-console.log('starting');
+console.log('The app is starting...');
 const fs = require('fs');
 const Promise = require('bluebird');
 const Twit = require('twit');
@@ -9,7 +9,7 @@ Promise.promisifyAll(fs);
 const T = new Twit(config);
 Promise.promisifyAll(T);
 
-console.log('fetching');
+console.log('Fetching tweets...');
 
 function getTweets(q) {
   return T.get('search/tweets', { q, count: 10 })
